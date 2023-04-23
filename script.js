@@ -7,7 +7,10 @@ patternTexture.crossOrigin = 'anonymous';
 patternTexture.onload = function () {
   initShader(container, patternTexture);
 }
-patternTexture.src = 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/168886/tex-magicCircle-01.png';
+_url_1='https://s3-us-west-2.amazonaws.com/s.cdpn.io/168886/tex-magicCircle-01.png';
+
+_url_2="https://instagram.fixr3-4.fna.fbcdn.net/v/t51.2885-15/324393048_503505901770618_8339094740370280963_n.jpg?stp=dst-jpg_e35_s640x640_sh0.08&_nc_ht=instagram.fixr3-4.fna.fbcdn.net&_nc_cat=106&_nc_ohc=I7YfnQDfqLMAX-N_JN-&edm=AP_V10EBAAAA&ccb=7-5&oh=00_AfCzLarNsB1yvMWnbsnE74pX2HRR4v4Qj4jRdt2CEOUvpQ&oe=64496C65&_nc_sid=4f375e";
+patternTexture.src = _url_2;
 
 function initShader(canvas, image) {
   keepFullSize(canvas);
