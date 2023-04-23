@@ -8,8 +8,8 @@ patternTexture.onload = function () {
   initShader(container, patternTexture);
 }
 _url_1='https://s3-us-west-2.amazonaws.com/s.cdpn.io/168886/tex-magicCircle-01.png';
-
-_url_2='https://siddht4.github.io/magic_cirle_2/324393048_503505901770618_8339094740370280963_n.jpg';
+_file_1='324393048_503505901770618_8339094740370280963_n.jpg';
+_url_2='https://siddht4.github.io/magic_cirle_2/f_c.png';
 
 patternTexture.src = _url_2;
 
