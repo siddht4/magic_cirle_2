@@ -10,8 +10,10 @@ patternTexture.onload = function () {
 _url_1='https://s3-us-west-2.amazonaws.com/s.cdpn.io/168886/tex-magicCircle-01.png';
 _file_1='324393048_503505901770618_8339094740370280963_n.jpg';
 _url_2='https://siddht4.github.io/magic_cirle_2/f_c.png';
+_url_3='https://siddht1.github.io/magic_circle/';
+_file_1_3='1562656.jpg';
 
-patternTexture.src = _url_2;
+patternTexture.src = _url_3+_file_1_3;
 
 function initShader(canvas, image) {
   keepFullSize(canvas);
